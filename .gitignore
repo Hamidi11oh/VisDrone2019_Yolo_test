@@ -1,0 +1,32 @@
+# YOLO training outputs
+runs/
+
+# YOLO datasets
+datasets/
+
+# Dataset / YOLO cache files
+*.cache
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# TensorBoard / experiment logs
+tensorboard/
+wandb/
+
+# Temporary files
+*.tmp
+*.log
